@@ -24,5 +24,21 @@ echo '$a'
 readonly NAME="SHELL"
 echo $NAME
 
-exit 0 
+# ============== #
+echo "Hello!SHELL"
+a="HENSU"
+echo $a
+echo $h$a
+exit 0
+
+
+
+
+
+
+
+
+
+
+
 

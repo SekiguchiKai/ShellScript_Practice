@@ -27,3 +27,12 @@ echo `expr $a / $b`
 
 # 割り算(剰余)
 echo `expr $a % $b`
+
+# ====================
+x=5
+y=2
+echo `expr $x + $y`
+echo `expr $x - $y`
+echo `expr $x \* $y`
+echo `expr $x / $y`
+
