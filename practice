@@ -7,3 +7,24 @@ echo hello
 echo "hello world"
 # 一行で複数の処理
 echo "hoge"; echo "foo" 
+
+# 変数は、以下のようにする(英数字と_のみ)=の間に空白なし
+programLang="Java" 
+
+# どっちの書き方でもOK
+echo "${programLang}はプログラミング言語である"
+echo "彼が好きなプログラミング言語は$programLang"
+
+programLang="Python" 
+echo "${programLang}はプログラミング言語である"
+echo "彼が好きなプログラミング言語は$programLang"
+
+# readonlyをつけると、書き換えられないようになる
+readonly programLang2="Go"
+echo "${programLang2}はプログラミング言語である"
+echo "彼が好きなプログラミング言語は$programLang2"
+
+# readonlyなので、./practice: line 27: programLang2: readonly variableのエラーが出る
+programLang2="TypeScript"
+echo "${programLang2}はプログラミング言語である"
+echo "彼が好きなプログラミング言語は$programLang2"
