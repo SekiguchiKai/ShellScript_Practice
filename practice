@@ -1,0 +1,9 @@
+#!/bin/bash 
+# ↑シバン
+
+# helloを表示(echoは改行つき)
+echo hello
+# 空白を入れたい場合
+echo "hello world"
+# 一行で複数の処理
+echo "hoge"; echo "foo" 
