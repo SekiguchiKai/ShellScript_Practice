@@ -30,3 +30,5 @@ echo '彼が好きなプログラミング言語は$programLang2'
 programLang2="TypeScript"
 echo "${programLang2}はプログラミング言語である"
 echo "彼が好きなプログラミング言語は$programLang2"
+
+
