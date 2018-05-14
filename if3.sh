@@ -6,6 +6,6 @@
 
 if [[ -f $1 ]];then
     echo "ファイル$1は存在するよん"
-else 
+elif [[ -d $1 ]];then
     echo "ファイル$1は存在しないよん"
 fi
