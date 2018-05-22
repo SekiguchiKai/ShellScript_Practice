@@ -1,3 +1,4 @@
+#!/bin/bash
 # 無限ループ
 while :
 do
